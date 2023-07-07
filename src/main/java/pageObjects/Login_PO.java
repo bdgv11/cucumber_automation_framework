@@ -20,6 +20,15 @@ public class Login_PO extends Base_PO {
     @FindBy(xpath = "//div[@class='help-block']/ul/li[@class='alert alert-danger']")
     WebElement authFailed_alert;
 
+    @FindBy(xpath = "//div[@class='user-info']/a[1]")
+    WebElement signOut_button;
+
+    @FindBy(xpath = "//input[@class='form-control'][@name='email']")
+    WebElement form_control_emailErrorMsg;
+
+    @FindBy(xpath = "//input[@name='password']")
+    WebElement form_control_passwordErrorMsg;
+
 
     // Constructor
     /*
@@ -51,5 +60,12 @@ public class Login_PO extends Base_PO {
     public void authenticationFailedMessage(String expectedMessage) {
         waitForElement(authFailed_alert);
         Assert.assertEquals(authFailed_alert.getText(), expectedMessage);
+    }
+    public String getEmailErrorMsg() {
+        return getTextFromDefaultPopUpErrorMsg(form_control_emailErrorMsg, "validationMessage");
+    }
+
+    public String getPasswordErrorMsg() {
+        return getTextFromDefaultPopUpErrorMsg(form_control_passwordErrorMsg, "validationMessage");
     }
 }

@@ -25,7 +25,7 @@ public class DriverFactory {
         switch (getBrowserType()) {
             case "chrome" -> {
                 // Set the CHROME property and its options needed
-                System.getProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/java/driver/drivers/chromedriver");
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/java/driver/drivers/chromedriver");
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
                 chromeOptions.addArguments("--remote-allow-origins=*");
@@ -36,7 +36,7 @@ public class DriverFactory {
 
             case "firefox" -> {
                 // Set the FIREFOX property and its options needed
-                System.getProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/main/java/driver/drivers/geckodriver");
+                System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/main/java/driver/drivers/geckodriver");
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
                 // Assign the chrome driver

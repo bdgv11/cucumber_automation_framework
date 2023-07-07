@@ -5,25 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27682698-c0ad-45a9-a6f0-a84acb306777" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/driver/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/driver/drivers/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Base_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Home_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Login_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Register_PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/properties/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/GlobalVars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/testng/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Login_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/base/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Register_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/RegisterPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Base_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Base_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Home_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Home_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Login_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Login_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Register_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Register_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/properties/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/GlobalVars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/GlobalVars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Login_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Login_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,29 +44,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/bryanguzman/Documents/Github/cucumber_automation_framework/src/main/java/driver/drivers",
-    "onboarding.tips.debug.path": "/Users/bryanguzman/Documents/Github/cucumber_automation_framework/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bryanguzman/Documents/Github/cucumber_automation_framework/src/main/java/driver/drivers&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/bryanguzman/Documents/Github/cucumber_automation_framework/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/driver/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/bryanguzman/Documents/Github/cucumber_automation_framework/src/test/java/runners/testng/testng.xml">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Validate error messages on email password field">
     <configuration name="Feature: LoginPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" />
-      <option name="GLUE" value="base" />
+      <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber_automation_framework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
@@ -89,15 +82,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Validate successful login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Validate error messages on email password field" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" />
-      <option name="GLUE" value="stepDefinitions base" />
+      <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber_automation_framework" />
-      <option name="NAME_FILTER" value="^Validate successful login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate successful login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validate successful login" />
+      <option name="NAME_FILTER" value="^Validate error messages on email password field$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate error messages on email password field$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate error messages on email password field" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -109,15 +102,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Validate unsuccessful login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Validate fields to show correct error messages" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" />
-      <option name="GLUE" value="stepDefinitions base" />
+      <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber_automation_framework" />
-      <option name="NAME_FILTER" value="^Validate unsuccessful login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate unsuccessful login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validate unsuccessful login" />
+      <option name="NAME_FILTER" value="^Validate fields to show correct error messages$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate fields to show correct error messages$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate fields to show correct error messages" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Validate successful login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber_automation_framework" />
+      <option name="NAME_FILTER" value="^Validate successful login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate successful login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate successful login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -146,23 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/bryanguzman/Documents/Github/cucumber_automation_framework/src/test/java/runners/testng/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="cucumber_automation_framework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/runners/testng/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/bryanguzman/Documents/Github/cucumber_automation_framework/src/test/java/runners/testng/testng.xml" />
+        <item itemvalue="Cucumber Java.Scenario: Validate error messages on email password field" />
         <item itemvalue="TestNG.MainRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Validate unsuccessful login" />
-        <item itemvalue="Cucumber Java.Scenario: Validate successful login" />
         <item itemvalue="Cucumber Java.Feature: LoginPage" />
+        <item itemvalue="Cucumber Java.Scenario: Validate fields to show correct error messages" />
+        <item itemvalue="Cucumber Java.Scenario: Validate successful login" />
       </list>
     </recent_temporary>
   </component>

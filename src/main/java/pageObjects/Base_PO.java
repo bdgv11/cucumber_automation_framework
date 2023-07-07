@@ -1,6 +1,7 @@
 package pageObjects;
 
 import driver.DriverFactory;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -21,7 +22,15 @@ public class Base_PO {
         return DriverFactory.getDriver();
     }
 
-    public void navigateToUrl(String url){
+    public String generateRandomNumber(int length) {
+        return RandomStringUtils.randomNumeric(length);
+    }
+
+    public String generateRandomString(int length) {
+        return RandomStringUtils.randomAlphabetic(length);
+    }
+
+    public void navigateToUrl(String url) {
         getDriver().get(url);
     }
 
@@ -35,9 +44,23 @@ public class Base_PO {
         wait.until(ExpectedConditions.elementToBeClickable(element)).click();
     }
 
-    public void waitForElement(WebElement element){
+    public void waitForElement(WebElement element) {
         WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(GlobalVars.DEFAULT_EXPLICIT_TIMEOUT));
         wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
+    public String getTextFromElement(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(GlobalVars.DEFAULT_EXPLICIT_TIMEOUT));
+        wait.until(ExpectedConditions.visibilityOf(element));
+
+        return element.getText();
+    }
+
+    public String getTextFromDefaultPopUpErrorMsg(WebElement element, String attribute) {
+        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(GlobalVars.DEFAULT_EXPLICIT_TIMEOUT));
+        wait.until(ExpectedConditions.visibilityOf(element));
+
+        return element.getAttribute(attribute);
     }
 
 
