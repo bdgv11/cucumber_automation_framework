@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27682698-c0ad-45a9-a6f0-a84acb306777" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Register_steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/RegisterPage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Product_PO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ProductPage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Base_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Base_PO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Home_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Home_PO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Login_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Login_PO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Register_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Register_PO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/properties/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/GlobalVars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/GlobalVars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Login_steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Login_steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +53,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/driver/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Validate error messages on email password field">
+  <component name="RunManager" selected="TestNG.MainRunner">
     <configuration name="Feature: LoginPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" />
@@ -161,8 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Validate error messages on email password field" />
         <item itemvalue="TestNG.MainRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Validate error messages on email password field" />
         <item itemvalue="Cucumber Java.Feature: LoginPage" />
         <item itemvalue="Cucumber Java.Scenario: Validate fields to show correct error messages" />
         <item itemvalue="Cucumber Java.Scenario: Validate successful login" />
