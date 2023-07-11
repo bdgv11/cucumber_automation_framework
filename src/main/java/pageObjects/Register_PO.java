@@ -127,7 +127,7 @@ public class Register_PO extends Base_PO {
         clickOnElement(save_button);
     }
 
-    public String getUsernameLogged(){
+    public String getUsernameLogged() {
 
         return getTextFromElement(username_logged);
 

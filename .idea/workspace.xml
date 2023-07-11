@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27682698-c0ad-45a9-a6f0-a84acb306777" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Product_steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Base_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Base_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Product_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Product_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/Register_PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Register_PO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ProductPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ProductPage.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: ProductPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ProductPage.feature" />
+      <option name="GLUE" value="stepDefinitions.base" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber_automation_framework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: ProductPage" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Validate error messages on email password field" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" />
@@ -92,35 +116,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Validate fields to show correct error messages" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Validate that women clothes sub-category has products available" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ProductPage.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber_automation_framework" />
-      <option name="NAME_FILTER" value="^Validate fields to show correct error messages$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate fields to show correct error messages$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validate fields to show correct error messages" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Validate successful login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginPage.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="cucumber_automation_framework" />
-      <option name="NAME_FILTER" value="^Validate successful login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate successful login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validate successful login" />
+      <option name="NAME_FILTER" value="^Validate that women clothes sub\-category has products available$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate that women clothes sub\-category has products available$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate that women clothes sub-category has products available" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -152,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MainRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Validate that women clothes sub-category has products available" />
+        <item itemvalue="Cucumber Java.Feature: ProductPage" />
         <item itemvalue="Cucumber Java.Scenario: Validate error messages on email password field" />
         <item itemvalue="Cucumber Java.Feature: LoginPage" />
-        <item itemvalue="Cucumber Java.Scenario: Validate fields to show correct error messages" />
-        <item itemvalue="Cucumber Java.Scenario: Validate successful login" />
       </list>
     </recent_temporary>
   </component>

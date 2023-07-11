@@ -4,6 +4,7 @@ import driver.DriverFactory;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,6 +13,8 @@ import utils.GlobalVars;
 import java.time.Duration;
 
 public class Base_PO {
+
+    Actions actions = new Actions(getDriver());
 
     // The idea of this const is initialized elements of this page
     public Base_PO() {
@@ -63,5 +66,9 @@ public class Base_PO {
         return element.getAttribute(attribute);
     }
 
-
+    public void hoverOnElement(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(GlobalVars.DEFAULT_EXPLICIT_TIMEOUT));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        actions.moveToElement(element).build().perform();
+    }
 }

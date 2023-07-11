@@ -6,7 +6,6 @@ Feature: Test Store - product page
     Given I can access to store home page
 
   Scenario: Validate that women clothes sub-category has products available
-
     When I click to women clothes sub category
     Then I should be presented with at least one available listed product
 
